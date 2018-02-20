@@ -1,11 +1,11 @@
 package prepare_test
 
 import (
-	"github.com/skatteetaten/architect/pkg/config"
-	"github.com/skatteetaten/architect/pkg/config/runtime"
-	"github.com/skatteetaten/architect/pkg/docker"
-	"github.com/skatteetaten/architect/pkg/nexus"
-	"github.com/skatteetaten/architect/pkg/nodejs/prepare"
+	"github.com/bendikp/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/config/runtime"
+	"github.com/bendikp/architect/pkg/docker"
+	"github.com/bendikp/architect/pkg/nexus"
+	"github.com/bendikp/architect/pkg/nodejs/prepare"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"

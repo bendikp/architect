@@ -3,7 +3,7 @@ package docker
 import (
 	"crypto/tls"
 	"github.com/pkg/errors"
-	"github.com/skatteetaten/architect/pkg/config/runtime"
+	"github.com/bendikp/architect/pkg/config/runtime"
 	"io/ioutil"
 	"net/http"
 	"time"

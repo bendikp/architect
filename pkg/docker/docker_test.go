@@ -5,7 +5,7 @@ import (
 	"context"
 	"github.com/docker/docker/api/types"
 	"github.com/pkg/errors"
-	"github.com/skatteetaten/architect/pkg/docker"
+	"github.com/bendikp/architect/pkg/docker"
 	"io"
 	"io/ioutil"
 	"os"

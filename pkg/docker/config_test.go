@@ -1,7 +1,7 @@
 package docker_test
 
 import (
-	"github.com/skatteetaten/architect/pkg/docker"
+	"github.com/bendikp/architect/pkg/docker"
 	"strings"
 	"testing"
 )

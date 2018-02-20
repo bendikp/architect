@@ -3,13 +3,13 @@ package prepare
 import (
 	"github.com/Sirupsen/logrus"
 	"github.com/pkg/errors"
-	"github.com/skatteetaten/architect/pkg/config"
-	"github.com/skatteetaten/architect/pkg/config/runtime"
-	"github.com/skatteetaten/architect/pkg/docker"
-	"github.com/skatteetaten/architect/pkg/java/prepare/resources"
-	"github.com/skatteetaten/architect/pkg/nexus"
-	"github.com/skatteetaten/architect/pkg/process/build"
-	"github.com/skatteetaten/architect/pkg/util"
+	"github.com/bendikp/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/config/runtime"
+	"github.com/bendikp/architect/pkg/docker"
+	"github.com/bendikp/architect/pkg/java/prepare/resources"
+	"github.com/bendikp/architect/pkg/nexus"
+	"github.com/bendikp/architect/pkg/process/build"
+	"github.com/bendikp/architect/pkg/util"
 	"strings"
 )
 

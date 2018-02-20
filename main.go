@@ -16,14 +16,14 @@ package main
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/skatteetaten/architect/cmd"
-	"github.com/skatteetaten/architect/cmd/architect"
-	"github.com/skatteetaten/architect/pkg/config"
-	"github.com/skatteetaten/architect/pkg/nexus"
+	"github.com/bendikp/architect/cmd"
+	"github.com/bendikp/architect/cmd/architect"
+	"github.com/bendikp/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/docker"
+	"github.com/bendikp/architect/pkg/nexus"
+	"github.com/bendikp/architect/pkg/util"
 	"os"
 	"strings"
-	"github.com/skatteetaten/architect/pkg/docker"
-	"github.com/skatteetaten/architect/pkg/util"
 )
 
 func main() {

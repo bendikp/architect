@@ -10,7 +10,7 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/pkg/errors"
-	"github.com/skatteetaten/architect/pkg/config/runtime"
+	"github.com/bendikp/architect/pkg/config/runtime"
 	"io"
 	"os"
 	"os/user"

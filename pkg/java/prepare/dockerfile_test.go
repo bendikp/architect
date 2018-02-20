@@ -2,10 +2,10 @@ package prepare_test
 
 import (
 	"bytes"
-	global "github.com/skatteetaten/architect/pkg/config"
-	"github.com/skatteetaten/architect/pkg/config/runtime"
-	"github.com/skatteetaten/architect/pkg/java/config"
-	"github.com/skatteetaten/architect/pkg/java/prepare"
+	global "github.com/bendikp/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/config/runtime"
+	"github.com/bendikp/architect/pkg/java/config"
+	"github.com/bendikp/architect/pkg/java/prepare"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

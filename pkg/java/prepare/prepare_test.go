@@ -1,10 +1,10 @@
 package prepare_test
 
 import (
-	global "github.com/skatteetaten/architect/pkg/config"
-	"github.com/skatteetaten/architect/pkg/config/runtime"
-	"github.com/skatteetaten/architect/pkg/java/prepare"
-	"github.com/skatteetaten/architect/pkg/nexus"
+	global "github.com/bendikp/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/config/runtime"
+	"github.com/bendikp/architect/pkg/java/prepare"
+	"github.com/bendikp/architect/pkg/nexus"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"path/filepath"

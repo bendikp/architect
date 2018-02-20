@@ -1,8 +1,8 @@
 package prepare
 
 import (
-	"github.com/skatteetaten/architect/pkg/java/config"
-	"github.com/skatteetaten/architect/pkg/util"
+	"github.com/bendikp/architect/pkg/java/config"
+	"github.com/bendikp/architect/pkg/util"
 )
 
 var startscriptTemplate string = `source $HOME/architect/run_tools.sh

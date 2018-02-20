@@ -16,7 +16,7 @@
 BIN := architect
 
 # This repo's root import path (under GOPATH).
-PKG := github.com/skatteetaten/architect
+PKG := github.com/bendikp/architect
 
 # Which architecture to build - see $(ALL_ARCH) for options.
 ARCH ?= amd64

@@ -5,7 +5,7 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/docker/docker/reference"
 	"github.com/pkg/errors"
-	"github.com/skatteetaten/architect/pkg/config/api"
+	"github.com/bendikp/architect/pkg/config/api"
 	"io/ioutil"
 	"os"
 	"strings"

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	extVersion "github.com/hashicorp/go-version"
 	"github.com/pkg/errors"
-	"github.com/skatteetaten/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/config"
 	"regexp"
 	"strings"
 )

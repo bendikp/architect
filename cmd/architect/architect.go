@@ -2,14 +2,14 @@ package architect
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/skatteetaten/architect/pkg/config"
-	"github.com/skatteetaten/architect/pkg/docker"
-	"github.com/skatteetaten/architect/pkg/java"
-	"github.com/skatteetaten/architect/pkg/nexus"
-	"github.com/skatteetaten/architect/pkg/nodejs/prepare"
-	"github.com/skatteetaten/architect/pkg/process/build"
-	"github.com/skatteetaten/architect/pkg/process/retag"
-	"github.com/skatteetaten/architect/pkg/util"
+	"github.com/bendikp/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/docker"
+	"github.com/bendikp/architect/pkg/java"
+	"github.com/bendikp/architect/pkg/nexus"
+	"github.com/bendikp/architect/pkg/nodejs/prepare"
+	"github.com/bendikp/architect/pkg/process/build"
+	"github.com/bendikp/architect/pkg/process/retag"
+	"github.com/bendikp/architect/pkg/util"
 	"github.com/spf13/cobra"
 )
 

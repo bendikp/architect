@@ -3,11 +3,11 @@ package process
 import (
 	"github.com/Sirupsen/logrus"
 	"github.com/pkg/errors"
-	"github.com/skatteetaten/architect/pkg/config"
-	"github.com/skatteetaten/architect/pkg/config/runtime"
-	"github.com/skatteetaten/architect/pkg/docker"
-	"github.com/skatteetaten/architect/pkg/nexus"
-	"github.com/skatteetaten/architect/pkg/process/tagger"
+	"github.com/bendikp/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/config/runtime"
+	"github.com/bendikp/architect/pkg/docker"
+	"github.com/bendikp/architect/pkg/nexus"
+	"github.com/bendikp/architect/pkg/process/tagger"
 )
 
 //TODO: Write some test for this..

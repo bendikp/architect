@@ -3,7 +3,7 @@ package nexus
 import (
 	"github.com/Sirupsen/logrus"
 	"github.com/pkg/errors"
-	"github.com/skatteetaten/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/config"
 	"io"
 	"io/ioutil"
 	"mime"

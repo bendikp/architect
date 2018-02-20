@@ -2,7 +2,7 @@ package prepare
 
 import (
 	"github.com/docker/docker/pkg/ioutils"
-	"github.com/skatteetaten/architect/pkg/java/config"
+	"github.com/bendikp/architect/pkg/java/config"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"

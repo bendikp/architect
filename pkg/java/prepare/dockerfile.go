@@ -2,11 +2,11 @@ package prepare
 
 import (
 	"github.com/pkg/errors"
-	global "github.com/skatteetaten/architect/pkg/config"
-	"github.com/skatteetaten/architect/pkg/config/runtime"
-	"github.com/skatteetaten/architect/pkg/docker"
-	"github.com/skatteetaten/architect/pkg/java/config"
-	"github.com/skatteetaten/architect/pkg/util"
+	global "github.com/bendikp/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/config/runtime"
+	"github.com/bendikp/architect/pkg/docker"
+	"github.com/bendikp/architect/pkg/java/config"
+	"github.com/bendikp/architect/pkg/util"
 	"io"
 )
 

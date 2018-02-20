@@ -2,8 +2,8 @@ package prepare
 
 import (
 	"bytes"
-	"github.com/skatteetaten/architect/pkg/config/runtime"
-	"github.com/skatteetaten/architect/pkg/util"
+	"github.com/bendikp/architect/pkg/config/runtime"
+	"github.com/bendikp/architect/pkg/util"
 	"github.com/stretchr/testify/assert"
 	"path"
 	"testing"

@@ -2,7 +2,7 @@ package prepare
 
 import (
 	"bytes"
-	"github.com/skatteetaten/architect/pkg/java/config"
+	"github.com/bendikp/architect/pkg/java/config"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

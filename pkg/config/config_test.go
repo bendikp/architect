@@ -2,7 +2,7 @@ package config_test
 
 import (
 	"github.com/docker/docker/pkg/testutil/assert"
-	"github.com/skatteetaten/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/config"
 	"testing"
 )
 

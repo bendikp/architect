@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/skatteetaten/architect/cmd/architect"
+	"github.com/bendikp/architect/cmd/architect"
 	"github.com/spf13/cobra"
 	"os"
 )

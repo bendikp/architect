@@ -1,4 +1,4 @@
-package: github.com/skatteetaten/architect
+package: github.com/bendikp/architect
 import:
 - package: github.com/spf13/cobra
   version: 1c44ec8d3f1552cac48999f9306da23c4d8a288b

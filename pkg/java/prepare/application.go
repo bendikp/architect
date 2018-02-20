@@ -3,8 +3,8 @@ package prepare
 import (
 	"github.com/Sirupsen/logrus"
 	"github.com/pkg/errors"
-	"github.com/skatteetaten/architect/pkg/java/config"
-	"github.com/skatteetaten/architect/pkg/util"
+	"github.com/bendikp/architect/pkg/java/config"
+	"github.com/bendikp/architect/pkg/util"
 	"io/ioutil"
 	"os"
 	"path/filepath"

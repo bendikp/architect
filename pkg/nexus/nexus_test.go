@@ -4,7 +4,7 @@ import (
 	"archive/zip"
 	"bytes"
 	"fmt"
-	"github.com/skatteetaten/architect/pkg/config"
+	"github.com/bendikp/architect/pkg/config"
 	"log"
 	"net/http"
 	"net/http/httptest"
