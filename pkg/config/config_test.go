@@ -1,8 +1,8 @@
 package config_test
 
 import (
-	"github.com/docker/docker/pkg/testutil/assert"
 	"github.com/bendikp/architect/pkg/config"
+	"github.com/docker/docker/pkg/testutil/assert"
 	"testing"
 )
 

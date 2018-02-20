@@ -2,7 +2,6 @@ package prepare
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/pkg/errors"
 	"github.com/bendikp/architect/pkg/config"
 	"github.com/bendikp/architect/pkg/config/runtime"
 	"github.com/bendikp/architect/pkg/docker"
@@ -10,6 +9,7 @@ import (
 	"github.com/bendikp/architect/pkg/nexus"
 	"github.com/bendikp/architect/pkg/process/build"
 	"github.com/bendikp/architect/pkg/util"
+	"github.com/pkg/errors"
 	"strings"
 )
 

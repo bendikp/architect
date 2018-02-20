@@ -2,13 +2,13 @@ package java
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/pkg/errors"
 	"github.com/bendikp/architect/pkg/config"
 	"github.com/bendikp/architect/pkg/config/runtime"
 	"github.com/bendikp/architect/pkg/docker"
 	"github.com/bendikp/architect/pkg/java/prepare"
 	"github.com/bendikp/architect/pkg/nexus"
 	"github.com/bendikp/architect/pkg/process/build"
+	"github.com/pkg/errors"
 )
 
 func Prepper() process.Prepper {

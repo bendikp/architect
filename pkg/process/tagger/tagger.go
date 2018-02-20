@@ -2,10 +2,10 @@ package tagger
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/pkg/errors"
 	"github.com/bendikp/architect/pkg/config"
 	"github.com/bendikp/architect/pkg/config/runtime"
 	"github.com/bendikp/architect/pkg/docker"
+	"github.com/pkg/errors"
 )
 
 type TagResolver interface {

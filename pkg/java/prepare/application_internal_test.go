@@ -1,8 +1,8 @@
 package prepare
 
 import (
-	"github.com/docker/docker/pkg/ioutils"
 	"github.com/bendikp/architect/pkg/java/config"
+	"github.com/docker/docker/pkg/ioutils"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"

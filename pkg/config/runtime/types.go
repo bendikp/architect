@@ -2,9 +2,9 @@ package runtime
 
 import (
 	"fmt"
+	"github.com/bendikp/architect/pkg/config"
 	extVersion "github.com/hashicorp/go-version"
 	"github.com/pkg/errors"
-	"github.com/bendikp/architect/pkg/config"
 	"regexp"
 	"strings"
 )

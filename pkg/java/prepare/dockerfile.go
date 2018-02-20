@@ -1,12 +1,12 @@
 package prepare
 
 import (
-	"github.com/pkg/errors"
 	global "github.com/bendikp/architect/pkg/config"
 	"github.com/bendikp/architect/pkg/config/runtime"
 	"github.com/bendikp/architect/pkg/docker"
 	"github.com/bendikp/architect/pkg/java/config"
 	"github.com/bendikp/architect/pkg/util"
+	"github.com/pkg/errors"
 	"io"
 )
 

@@ -2,8 +2,8 @@ package nexus
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/pkg/errors"
 	"github.com/bendikp/architect/pkg/config"
+	"github.com/pkg/errors"
 	"io"
 	"io/ioutil"
 	"mime"

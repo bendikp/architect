@@ -69,8 +69,8 @@ func initializeAndRunOnOpenShift() {
 		nexusDownloader = nexus.NewNexusDownloader(mavenRepo)
 	}
 	runConfig := architect.RunConfiguration{
-		Config:    cfg,
-		NexusDownloader: nexusDownloader,
+		Config:                  cfg,
+		NexusDownloader:         nexusDownloader,
 		RegistryCredentialsFunc: docker.CusterRegistryCredentials(),
 	}
 	architect.RunArchitect(runConfig)

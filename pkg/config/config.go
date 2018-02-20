@@ -3,9 +3,9 @@ package config
 import (
 	"encoding/json"
 	"github.com/Sirupsen/logrus"
+	"github.com/bendikp/architect/pkg/config/api"
 	"github.com/docker/docker/reference"
 	"github.com/pkg/errors"
-	"github.com/bendikp/architect/pkg/config/api"
 	"io/ioutil"
 	"os"
 	"strings"

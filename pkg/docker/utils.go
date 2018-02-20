@@ -2,8 +2,8 @@ package docker
 
 import (
 	"crypto/tls"
-	"github.com/pkg/errors"
 	"github.com/bendikp/architect/pkg/config/runtime"
+	"github.com/pkg/errors"
 	"io/ioutil"
 	"net/http"
 	"time"

@@ -3,9 +3,9 @@ package docker_test
 import (
 	"bytes"
 	"context"
+	"github.com/bendikp/architect/pkg/docker"
 	"github.com/docker/docker/api/types"
 	"github.com/pkg/errors"
-	"github.com/bendikp/architect/pkg/docker"
 	"io"
 	"io/ioutil"
 	"os"

@@ -2,9 +2,9 @@ package prepare
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/pkg/errors"
 	"github.com/bendikp/architect/pkg/java/config"
 	"github.com/bendikp/architect/pkg/util"
+	"github.com/pkg/errors"
 	"io/ioutil"
 	"os"
 	"path/filepath"

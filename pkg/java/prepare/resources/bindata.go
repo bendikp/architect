@@ -272,11 +272,11 @@ type bintree struct {
 }
 
 var _bintree = &bintree{nil, map[string]*bintree{
-	"cacerts":          &bintree{cacerts, map[string]*bintree{}},
-	"liveness_std.sh":  &bintree{liveness_stdSh, map[string]*bintree{}},
-	"logback.xml":      &bintree{logbackXml, map[string]*bintree{}},
-	"readiness_std.sh": &bintree{readiness_stdSh, map[string]*bintree{}},
-	"run_tools.sh":     &bintree{run_toolsSh, map[string]*bintree{}},
+	"cacerts":          {cacerts, map[string]*bintree{}},
+	"liveness_std.sh":  {liveness_stdSh, map[string]*bintree{}},
+	"logback.xml":      {logbackXml, map[string]*bintree{}},
+	"readiness_std.sh": {readiness_stdSh, map[string]*bintree{}},
+	"run_tools.sh":     {run_toolsSh, map[string]*bintree{}},
 }}
 
 // RestoreAsset restores an asset under the given directory

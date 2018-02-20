@@ -2,10 +2,10 @@ package config_test
 
 import (
 	"fmt"
-	"github.com/docker/distribution/manifest/schema1"
 	"github.com/bendikp/architect/pkg/config"
 	"github.com/bendikp/architect/pkg/config/runtime"
 	"github.com/bendikp/architect/pkg/docker"
+	"github.com/docker/distribution/manifest/schema1"
 	"testing"
 )
 

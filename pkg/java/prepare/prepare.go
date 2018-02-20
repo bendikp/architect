@@ -1,7 +1,6 @@
 package prepare
 
 import (
-	"github.com/pkg/errors"
 	"github.com/bendikp/architect/pkg/config"
 	"github.com/bendikp/architect/pkg/config/runtime"
 	"github.com/bendikp/architect/pkg/docker"
@@ -9,6 +8,7 @@ import (
 	"github.com/bendikp/architect/pkg/java/prepare/resources"
 	"github.com/bendikp/architect/pkg/nexus"
 	"github.com/bendikp/architect/pkg/util"
+	"github.com/pkg/errors"
 	"io"
 	"io/ioutil"
 	"os"
