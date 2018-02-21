@@ -13,12 +13,12 @@ var cfgFile string
 var RootCmd = &cobra.Command{
 	Use:   "architect",
 	Short: "Architect, the build tool for Applications",
-	Long: `Architect is a tool for building Docker images in a standarized way.
+	Long: `Architect is a tool for building Docker images in a standardized way.
 
 For now, the following is supported:
 
 - Java applications packaged as a zip, with a defined structure
-- NodeJS application packaged as a zip with a defined structure
+- NodeJS application packaged as a zip, with a defined structure
 	`,
 }
 

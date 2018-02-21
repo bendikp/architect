@@ -26,7 +26,7 @@ var JavaLeveransepakke = &cobra.Command{
 
 	Use:   "build",
 	Short: "Build Docker image from Zip",
-	Long:  `TODO`,
+	Long:  "Build Docker image from Zip",
 	Run: func(cmd *cobra.Command, args []string) {
 		var configReader = config.NewInClusterConfigReader()
 		var nexusDownloader nexus.Downloader
